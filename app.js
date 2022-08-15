@@ -1,7 +1,7 @@
  const http = require('http'); 
   const os = require('os');
 
-  console.log("Kubia server starting...");
+  console.log("2Kubia server starting...");
 
   var handler = function(request, response) {
       console.log("2Received request from " + request.connection.remoteAddress); 
